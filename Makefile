@@ -24,5 +24,4 @@ endif
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 
-ADDITIONAL_CFLAGS += -Wno-error=vla-cxx-extension
-ADDITIONAL_CXXFLAGS += -Wno-error=vla-cxx-extension
+ADDITIONAL_CFLAGS += -Wno-vla-cxx-extension -Wno-error
